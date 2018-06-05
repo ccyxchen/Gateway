@@ -207,7 +207,7 @@ int main()
     //初始化MySQL
     mysql_init(&mysql);  
     //连接MySQL上的数据库
-    res = mysql_real_connect(&mysql, "127.0.0.1", "root", "7718613chen", NULL, 3306, NULL, 0);
+    res = mysql_real_connect(&mysql, "127.0.0.1", "root", "xxxxxxxx", NULL, 3306, NULL, 0);
     if(!res)
         printf("connect error!\n");
 
